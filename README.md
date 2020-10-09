@@ -1,23 +1,10 @@
 # rtl8814AU
+
 Realtek 8814AU USB WiFi driver.
 
-Forked from [Diederik de Haas](https://github.com/diederikdehaas/rtl8814AU)'
-repository which is based on version 4.3.21 of an Edimax driver for the
-EW-7833UAC device.
+Note from Saransh :  This is a fork of [Thomas Pircher](https://github.com/tpircher/rtl8814AU) repository. From here on, I'll be developing and maintaining the driver for the coming linux kernel versions. Thanks Thomas for your work and giving me cliffnotes for the future.
 
 Updated with support for kernels >= 4.14 and < 5.3.
-
-# Caveat Emptor
-
-This repository is no longer maintained.
-
-If you are thinking of buying a product with this chip in: don't, unless you
-are prepared to put a considerable amount of work in yourself. More generally,
-don't buy any hardware that is not supported by the mainline kernel. Some
-companies claim "Linux support" on the box, on the basis that some third party
-hosts some (likely unsupported and unmaintained) driver source code for an
-antiquated kernel version. If you have the choice, look for
-[better alternatives](https://wireless.wiki.kernel.org/en/users/drivers).
 
 # Manual build
 
